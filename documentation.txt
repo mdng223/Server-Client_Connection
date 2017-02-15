@@ -1,0 +1,40 @@
+Members: Mark Ng, Chiu Tsang 
+
+Project Description: Create a server that accepts request to store a file, retrieve a file, delete file and list the files stored on the server.
+		     Create 4 client applications that store, retrieve, delete and lists files. 
+		The project will use functinos provided by csapp.c and csapp.h in out course text book.
+
+Special Features:
+
+	mcput: 	
+		The client will send a store request to the server containing the secretkey, type of request, filename, number of bytes in the file, and file data. 
+		It will accept user request to create new file if file doesnt exist or overwrite data to exisiting files. 
+		User can type new data with multiple lines and hit "ctrl-d" to send the new data to the server. 
+		When the user provide wrong secret key, the client will stil prompt the user for new data but when "ctrl-d" is entered the server will deny the put request.
+		The server will send a store response to the client in order for the client to know whether the store request was successful or not.
+
+	mcget:	The client will send a retrieve request to the server containing the secretkey, type of request, and file name. 
+		Mcget accepts user request to obtain file data from the server. 
+		Will display requested filename's data and the size of the data unpon completion  
+		If the user requests a file that does not exist,  the server will send an error acknowledgment to the client. 
+		The server will send a retrieve response to the client containing status (success or failure), bytes in the file, and file data. 
+
+	mcdel:	The client will send a delete request containing the secret key, type of request, and filename to the server.
+		Accepts users request to delete a file from server. If the file dne, the server will send an error signal to the client. 
+		If the file exists, the file will be deleted and a comformation will be sent to the client.  
+		The server will send a delete response back to the client containing the status (success or failure).
+
+	mclist: The client will send a list files request to the server containing the secretkey and the type of request.
+		Lists all files in server from current working session. 
+		If there are no files, then it will have no file names to list, otherwise the file names and number of bytes containing the file names 
+		will be displayed.
+		The server will send a list files response to the client containing the return status (successful or failure), number of bytes in the file listing, and the list data.
+
+
+
+Limitations:
+
+	Mclist exits the server after each call. This is due to us getting a segmentation fault (core dumped) whenever the user
+	tries to make another client-side application call to the server. 
+	Therefore, you need to restart the server after each Mclist call. 
+
