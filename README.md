@@ -6,7 +6,6 @@
 
 
 ### Files Included:
-
 	* **README:**	- this file
 	* **csapp.c**	- functions to read and write from/to server
 	* **csapp.h**	- header file for csapp.c
