@@ -1,11 +1,11 @@
 # server_client
-Server-Client connection written in C. Able to add, edit, delete, and list files. 
+* Establishes a server-client connection to different hosts and ports.
+* Able to add, edit, delete, and list files. 
+* Requires a key to be able to manipulate data.
 
 
-Members: Daniel Ng, Chiu Tsang
 
-
-## Files Included:
+### Files Included:
 
 	* **README:**	- this file
 	* **csapp.c**	- functions to read and write from/to server
@@ -21,6 +21,7 @@ Members: Daniel Ng, Chiu Tsang
 ## Authors
 
 * **Daniel Ng** - [mdng223](https://github.com/mdng223)
+* **Gary Tsang**
 
 ## How to compile:
 		make
