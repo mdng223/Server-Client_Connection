@@ -17,11 +17,6 @@
 * **server.c**	- Accepts client-side application calls and manipulates data
 * **Makefile**	
 
-### Authors
-
-* **Daniel Ng** - [mdng223](https://github.com/mdng223)
-* **Gary Tsang**
-
 ### How to compile:
 		make
 
@@ -40,3 +35,12 @@
 ### How to list files:
 		./mclist <host> <port> <secretKey>
 
+### Authors
+
+* **Daniel Ng** - [mdng223](https://github.com/mdng223)
+* **Gary Tsang**
+## Built With
+
+* [VIM](http://www.vim.org/) Advanced text editor
+* [C](http://www.cprogramming.com/) - Language used
+* [Secure Shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) - cryptographic network protocol for operating network services securely over an unsecured network.
