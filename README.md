@@ -5,7 +5,7 @@
 
 
 
-## Files Included:
+### Files Included:
 * **README:**	- this file
 * **csapp.c**	- functions to read and write from/to server
 * **csapp.h**	- header file for csapp.c
@@ -17,26 +17,26 @@
 * **server.c**	- Accepts client-side application calls and manipulates data
 * **Makefile**	
 
-## Authors
+### Authors
 
 * **Daniel Ng** - [mdng223](https://github.com/mdng223)
 * **Gary Tsang**
 
-## How to compile:
+### How to compile:
 		make
 
-## How to clean:
+### How to clean:
 		make clean
 
-## How to get files:
+### How to get files:
 		./mcget <host> <port> <SecretKey> <filename>
 
-## How to put (write) files:
+### How to put (write) files:
 		./mcput <host> <port> <secretKey> <filename>
 
-## How to delete files:
+### How to delete files:
 		./mcdel <host> <port> <secretKey> <filename>
 
-## How to list files:
+### How to list files:
 		./mclist <host> <port> <secretKey>
 
