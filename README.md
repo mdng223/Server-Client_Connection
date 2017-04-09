@@ -5,17 +5,17 @@
 
 
 
-### Files Included:
-	* **README:**	- this file
-	* **csapp.c**	- functions to read and write from/to server
-	* **csapp.h**	- header file for csapp.c
-	* **mcdel.c** 	- delete a file from the server
-	* **mclist.c**	- lists files from the server
-	* **mcget.c**	- retrieves file from server and prints out its data
-	* **mcput.cpp**	- writes a file onto the server
-	* **mycloud.c**	- library/api calls
-	* **server.c**	- Accepts client-side application calls and manipulates data
-	* **Makefile**	
+## Files Included:
+* **README:**	- this file
+* **csapp.c**	- functions to read and write from/to server
+* **csapp.h**	- header file for csapp.c
+* **mcdel.c** 	- delete a file from the server
+* **mclist.c**	- lists files from the server
+* **mcget.c**	- retrieves file from server and prints out its data
+* **mcput.cpp**	- writes a file onto the server
+* **mycloud.c**	- library/api calls
+* **server.c**	- Accepts client-side application calls and manipulates data
+* **Makefile**	
 
 ## Authors
 
