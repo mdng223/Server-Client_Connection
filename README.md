@@ -2,7 +2,7 @@
 Server-Client connection written in C. Able to add, edit, delete, and list files. 
 
 
-Members: Mark Ng, Chiu Tsang
+Members: Daniel Ng, Chiu Tsang
 
 
 Files Included:
